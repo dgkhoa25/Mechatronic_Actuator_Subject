@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C14 Old Footprint=HDR4 New Footprint=Header4
+Change Component Footprint: Designator=C15 Old Footprint=HDR4 New Footprint=Header4
+Change Component Footprint: Designator=C16 Old Footprint=HDR4 New Footprint=Header4
+Added Room: Name=Schematic

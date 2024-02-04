@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"do_an_dtcb_c8t6\startup_stm32f103xb.o"
+"do_an_dtcb_c8t6\main.o"
+"do_an_dtcb_c8t6\gpio.o"
+"do_an_dtcb_c8t6\tim.o"
+"do_an_dtcb_c8t6\stm32f1xx_it.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_msp.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_gpio_ex.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_tim.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_tim_ex.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_rcc.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_rcc_ex.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_gpio.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_dma.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_cortex.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_pwr.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_flash.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_flash_ex.o"
+"do_an_dtcb_c8t6\stm32f1xx_hal_exti.o"
+"do_an_dtcb_c8t6\system_stm32f1xx.o"
+"do_an_dtcb_c8t6\stepper_motor.o"
+"do_an_dtcb_c8t6\button.o"
+--strict --scatter "Do_an_DTCB_C8T6\Do_an_DTCB_C8T6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Do_an_DTCB_C8T6.map" -o Do_an_DTCB_C8T6\Do_an_DTCB_C8T6.axf

@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"rc_servo_test\startup_stm32f103xb.o"
+"rc_servo_test\main.o"
+"rc_servo_test\gpio.o"
+"rc_servo_test\tim.o"
+"rc_servo_test\stm32f1xx_it.o"
+"rc_servo_test\stm32f1xx_hal_msp.o"
+"rc_servo_test\stm32f1xx_hal_gpio_ex.o"
+"rc_servo_test\stm32f1xx_hal_tim.o"
+"rc_servo_test\stm32f1xx_hal_tim_ex.o"
+"rc_servo_test\stm32f1xx_hal.o"
+"rc_servo_test\stm32f1xx_hal_rcc.o"
+"rc_servo_test\stm32f1xx_hal_rcc_ex.o"
+"rc_servo_test\stm32f1xx_hal_gpio.o"
+"rc_servo_test\stm32f1xx_hal_dma.o"
+"rc_servo_test\stm32f1xx_hal_cortex.o"
+"rc_servo_test\stm32f1xx_hal_pwr.o"
+"rc_servo_test\stm32f1xx_hal_flash.o"
+"rc_servo_test\stm32f1xx_hal_flash_ex.o"
+"rc_servo_test\stm32f1xx_hal_exti.o"
+"rc_servo_test\system_stm32f1xx.o"
+"rc_servo_test\servo.o"
+--strict --scatter "RC_Servo_Test\RC_Servo_Test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RC_Servo_Test.map" -o RC_Servo_Test\RC_Servo_Test.axf

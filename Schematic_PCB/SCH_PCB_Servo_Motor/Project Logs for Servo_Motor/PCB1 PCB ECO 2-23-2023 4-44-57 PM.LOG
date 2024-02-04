@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=LED1 NewDesignator=LED3
+Change Component Designator: OldDesignator=LED2 NewDesignator=LED1
+Change Component Designator: OldDesignator=LED3 NewDesignator=LED2
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R4
+Change Component Designator: OldDesignator=R3 NewDesignator=R5
+Change Component Designator: OldDesignator=R4 NewDesignator=R6
+Change Component Designator: OldDesignator=R5 NewDesignator=R7
+Change Component Designator: OldDesignator=R6 NewDesignator=R1
+Change Component Designator: OldDesignator=R7 NewDesignator=R2
+Change Net Name : Old Net Name=NetLED1_1 New Net Name=NetLED3_1
+Change Net Name : Old Net Name=NetLED2_1 New Net Name=NetLED1_1
+Change Net Name : Old Net Name=NetLED3_1 New Net Name=NetLED2_1
+Added Room: Name=Schematic
